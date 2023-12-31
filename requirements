@@ -1,0 +1,32 @@
+
+Here are the requirements for the project, as identified from the code:
+
+1. Programming Languages and Libraries:
+
+Python: The main programming language used.
+SQLite: For database management to store tasks persistently.
+Tkinter: For creating the graphical user interface (GUI).
+json: For saving and loading tasks in JSON format (optional).
+plyer: For displaying desktop notifications (optional).
+
+
+2. Packages/Modules:
+
+sqlite3: To interact with the SQLite database.
+tkinter: To create GUI elements.
+datetime: To handle date and time information (if due dates are used).
+json: To work with JSON data (if saving tasks to a JSON file).
+plyer: To send desktop notifications (if enabled).
+3. External Dependencies:
+
+plyer: Needs to be installed using pip install plyer.
+                                      
+4. Functional Features:
+
+Add tasks: Allow users to add new tasks with optional due dates.
+View tasks: Display a list of all tasks, including their due dates and completion status.
+Mark tasks as complete: Enable users to mark tasks as done.
+Delete tasks: Allow users to remove tasks from the list.
+Save tasks: Store tasks persistently in a database or a JSON file.
+Load tasks: Retrieve previously saved tasks upon startup.
+Desktop notifications (optional): Display notifications for new tasks or completed tasks.
